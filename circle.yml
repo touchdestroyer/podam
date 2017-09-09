@@ -1,5 +1,7 @@
 ## Customize the test machine
 machine:
+  java:
+    version: openjdk7
 
   timezone:
     America/Los_Angeles # Set the timezone
@@ -68,3 +70,5 @@ notify:
   webhooks:
     # A list of hashes representing hooks. Only the url field is supported.
     - url: https://someurl.com/hooks/circle
+    
+    
